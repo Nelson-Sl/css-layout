@@ -7,8 +7,73 @@ html {
     line-height: 1.5em;
 }
 
+header {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: flex;
+}
+
+header img {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+header h1 {
+    width: 78%;
+    text-align: center;
+}
+
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+a {
+    color: white;
+}
+
+.description img {
+    float: left;
+    margin-left: 5%;
+    margin-right: 15px;
+}
+
+.description {
+    background-color: gainsboro;
+    padding: 30px;
+}
+
+
+
+.relationship img {
+    float: right;
+}
+
+.description-p2 {
+    clear: both;
+    margin-left: 5%;
+}
+
+.relationship p, .relationship h2{
+    margin-left: 5%;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color:grey;
+    text-align: center;
+    line-height: 5em;
 }
